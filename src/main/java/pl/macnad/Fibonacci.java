@@ -9,10 +9,10 @@ public class Fibonacci {
             return 0;
         }
 
-        int a = 0;
-        int b = 1;
+        long a = 0;
+        long b = 1;
         for (int i = 2; i < index; i++) {
-            int tmp = a;
+            long tmp = a;
             a = b;
             b += tmp;
         }
